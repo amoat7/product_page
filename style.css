@@ -1,0 +1,129 @@
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(221, 215, 215);
+    
+}
+
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: grid;
+    background-color:rgb(40, 42, 43);
+    grid-template-rows: auto auto;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.company_header{
+    width: 100%;
+    grid-row: 1/2;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding-bottom: 4px;
+    border-bottom: 1px solid white;
+
+}
+
+#nav-bar{
+    width: 100%;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+
+}
+
+
+.company_header h1{
+    display: inline;
+    font-size: 2rem;
+    text-align: justify;
+    
+}
+
+.company_header img{
+    position: block;
+    top: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin: 5px solid black;
+    height: 1rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: yellow;
+    text-decoration: underline;
+
+}
+.spacer
+{
+    width: 100%;
+    height: 95px;
+    
+}
+.main{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.welcome h2{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form #email{
+    width: 75%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#form #submit{
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+.description{
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.description h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#descriptions iframe{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
